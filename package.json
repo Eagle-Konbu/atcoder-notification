@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@slack/web-api": "^6.4.0",
     "@slack/webhook": "^6.0.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
