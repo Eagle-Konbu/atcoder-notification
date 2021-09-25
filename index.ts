@@ -11,7 +11,7 @@ type ACDetail = {
 
 (async () => {
   const now = moment().tz("Asia/Tokyo")
-  const users = ["cl17"]
+  const users = (process.env.USERS ?? "").split(",")
 
   let data: ACDetail[] = []
   for (let i = 0; i < users.length; i++) {
